@@ -1,0 +1,60 @@
+{
+  "name": "gymapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "postinstall": "npx jetify",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.6",
+    "@react-native-community/netinfo": "^5.7.0",
+    "@react-native-community/viewpager": "^3.3.0",
+    "@react-navigation/bottom-tabs": "^5.1.1",
+    "@react-navigation/native": "^5.0.3",
+    "@react-navigation/stack": "^5.0.3",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-button": "^2.4.0",
+    "react-native-custom-headers": "^1.0.1",
+    "react-native-device-info": "^5.5.3",
+    "react-native-email-link": "^1.7.3",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-google-signin": "^2.1.1",
+    "react-native-image-picker": "^2.3.1",
+    "react-native-indicators": "^0.17.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.1",
+    "react-native-push-notification": "^3.1.9",
+    "react-native-razorpay": "^2.1.32",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-render-html": "^4.2.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.0.0-beta.2",
+    "react-native-segmented-control-tab": "^3.4.1",
+    "react-native-stars": "^1.1.6",
+    "react-native-swiper": "^1.6.0",
+    "react-native-video": "^4.4.5",
+    "react-native-video-controls": "^2.4.0",
+    "react-native-webview": "^8.2.0",
+    "react-navigation": "^4.2.2",
+    "react-navigation-tabs": "^2.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/runtime": "7.8.4",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "jetifier": "^1.6.5",
+    "metro-react-native-babel-preset": "0.56.4",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
